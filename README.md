@@ -1,1 +1,1 @@
-# CICD
+# CI/CD
