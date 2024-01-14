@@ -15,7 +15,7 @@ RUN python -m pip install --upgrade pip \
 EXPOSE 8080
 
 #set the entry point and default command to run the application
-CMD ["ipshita-flaskapp"]
+CMD ["app"]
 
 
 
