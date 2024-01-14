@@ -1,5 +1,12 @@
+pip
 Flask
-Werkzeug
+setuptools
+wheel
 pytest
 pytest-flask
-wheel
+Werkzeug
+
+
+
+
+
