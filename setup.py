@@ -13,4 +13,5 @@ setup(
             'app = app.app:main',
         ],
     },
+    setup_requires=['wheel'],  #to ensure wheel is available
 )
