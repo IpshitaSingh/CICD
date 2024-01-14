@@ -7,11 +7,17 @@ WORKDIR /app
 #copy current directory contents into the container at /app
 COPY . /app
 
-RUN pip install flask
+#install the app using setuptools
+RUN python -m pip install --upgrade pip \
+    && python setup.py install
 
 #expose port 8080
 EXPOSE 8080
 
 #set the entry point and default command to run the application
-ENTRYPOINT ["python"]
-CMD ["app.py"]
+CMD ["ipshita-flaskapp"]
+
+
+
+
+
