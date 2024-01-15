@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #install the app using setuptools
+RUN pip install flask
 RUN python -m pip install --upgrade pip \
     && python setup.py install
 
@@ -15,7 +16,8 @@ RUN python -m pip install --upgrade pip \
 EXPOSE 8080
 
 #set the entry point and default command to run the application
-CMD ["app"]
+ENTRYPOINT ["python"]
+CMD ["app.py"]
 
 
 
