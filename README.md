@@ -1,3 +1,5 @@
+Part of Assignment for Software Development class (WiSe '23) - To demonstrate Build Management, CI/CD Pipeline, & Unit Testing
+
 # Build Management, CI/CD, Tests 
 
 This is a simple application to demostrate integration of build management, CI/CD, and testing with a Flask app. This is done with setuptools (Python library) for build management, GitHub Actions for Continuous Integration/Continuous Deployment (CI/CD), and pytest (Python testing framework) for testing. An additional tool, Docker has been used for containerization and deployment. 
@@ -9,6 +11,7 @@ This is a simple application to demostrate integration of build management, CI/C
 ## Table of Contents
 
 - [Installation](#installation)
+- [Output](#output)
 - [Usage](#usage)
 - [Build Management](#build-management)
 - [CI/CD Pipeline](#cicd-pipeline)
@@ -31,6 +34,10 @@ To run the app locally:
 flask run
 ```
 The app should now be functioning on the localhost website.
+
+## Output
+Zoomed-in version of the output:
+<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/output.png"> 
 
 ## Build Management
 The build management of this project is done using setuptools. This tool streamlines the process of packaging the application, managing dependencies, and preparing it for distribution. The setup.py file contains the metadata and configuration for the project.
