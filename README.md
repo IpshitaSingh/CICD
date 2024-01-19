@@ -37,7 +37,7 @@ The app should now be functioning on the localhost website.
 
 ## Output
 Zoomed-in version of the output:
-<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/output.png"> 
+<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/blob/main/output.png"> 
 
 ## Build Management
 The build management of this project is done using setuptools. This tool streamlines the process of packaging the application, managing dependencies, and preparing it for distribution. The setup.py file contains the metadata and configuration for the project.
