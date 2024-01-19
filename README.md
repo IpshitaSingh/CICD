@@ -37,7 +37,7 @@ The app should now be functioning on the localhost website.
 
 ## Output
 Zoomed-in version of the output:
-<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/output.png"> 
+<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/imgs/output.png">
 
 ## Build Management
 The build management of this project is done using setuptools. This tool streamlines the process of packaging the application, managing dependencies, and preparing it for distribution. The setup.py file contains the metadata and configuration for the project.
@@ -58,8 +58,12 @@ The CI/CD pipeline is set up using GitHub Actions. On each push to the main bran
 4. **Testing:** pytest for unit testing.
 5. **Containerization:** Docker to package the app as image (_defined below!_) for deployment.
 
+<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/imgs/cicd_checks.png" width="740">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/imgs/cicd_build.png" width="740">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/CICD/main/imgs/cicd_test.png" width="740">
+
 ## Tests
-Unit tests are implemented using pytest. The CI/CD pipeline runs these tests to ensure the proper functioning of the app.
+Unit tests are implemented using pytest in [tests.py](https://github.com/IpshitaSingh/CICD/blob/main/tests.py). The **CI/CD pipeline** runs these tests to ensure the proper functioning of the app.
 ### First Test: Basic Functionality
 This test checks the core functionality of the app. It confirms that the home page returns a 200 status code and contains the expected message.
 
