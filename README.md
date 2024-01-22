@@ -1,4 +1,4 @@
-Part of Assignment for Software Development class (WiSe '23) - To demonstrate Build Management, CI/CD Pipeline, & Unit Testing
+Part of [Assignment](https://github.com/IpshitaSingh/scraper-analyzer) for Software Development class (WiSe '23) - To demonstrate Build Management, CI/CD Pipeline, & Unit Testing
 
 # Build Management, CI/CD, Tests 
 
