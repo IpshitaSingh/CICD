@@ -1,5 +1,7 @@
 Part of [Assignment](https://github.com/IpshitaSingh/scraper-analyzer) for Software Development class (WiSe '23) - To demonstrate Build Management, CI/CD Pipeline, & Unit Testing
 
+![CI/CD Pipeline](https://github.com/IpshitaSingh/CICD/workflows/CI/CD%20Pipeline/badge.svg)
+
 # Build Management, CI/CD, Tests 
 
 This is a simple application to demostrate integration of build management, CI/CD, and testing with a Flask app. This is done with setuptools (Python library) for build management, GitHub Actions for Continuous Integration/Continuous Deployment (CI/CD), and pytest (Python testing framework) for testing. An additional tool, Docker has been used for containerization and deployment. 
